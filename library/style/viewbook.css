@@ -1,0 +1,71 @@
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5) ), url(/images/bg\ img.jpg);
+    background-size: cover;
+    background-position:unset;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.div1{
+    width: auto;
+    height: 80px;
+    background-color: #2f2c24;
+}
+.div2{
+    float: left;
+    color: #c5c2bb;
+    display: flex;
+}
+.div2 img{
+    width: 60px;
+    height: 60px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.div2 h1{
+    margin-left: 20px;
+}
+.div3{
+    float: right;
+}
+.div4 ul {
+    display: flex;
+    list-style: none;
+    padding: 15px;
+}
+.div4 ul li a{
+    text-decoration: none;
+    padding: 20px;
+    color: #c5c2bb;
+}
+.div4 ul li a:hover{
+    text-decoration: none;
+    padding: 20px;
+    color: #147083;
+}
+.div5{
+    width: auto;
+    height: 400px;
+    margin-top: 50px ;
+    float: left;
+    display: flex;
+
+}
+.div5 img{
+    height: 400px;
+}
+ul{
+    list-style: none;
+    padding-top: 40px ;
+}
+ul li h3{
+    color: #c1dad6;
+    font-size:30px;
+}
+ul li h4{
+    color: #abebbd;
+    font-style: italic;
+}
+ul li p{
+    color: #c6e0de;
+}
+
+

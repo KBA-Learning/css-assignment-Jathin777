@@ -1,0 +1,108 @@
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5) ), url(/images/bg\ img.jpg);
+    background-size: cover;
+    background-position:unset;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.div1{
+    width: auto;
+    height: 80px;
+    background-color: #2f2c24;
+}
+.div2{
+    float: left;
+    color: #c5c2bb;
+    display: flex;
+}
+.div2 img{
+    width: 60px;
+    height: 60px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.div2 h1{
+    margin-left: 20px;
+}
+.div3{
+    float: right;
+}
+.div4 ul {
+    display: flex;
+    list-style: none;
+    padding: 15px;
+}
+.div4 ul li a{
+    text-decoration: none;
+    padding: 20px;
+    color: #c5c2bb;
+}
+.div4 ul li a:hover{
+    text-decoration: none;
+    padding: 20px;
+    color: #147083;
+}
+.login{
+    width: 400px;
+    height: 650px;
+    margin-top: 20px;
+    margin-left: 440px;
+    background-color:  #6f7877;
+    opacity: .7;
+    border-radius: 20px;
+}
+.heading{
+    text-align: center;
+    padding-top: 30px;
+    color:  #3b3a37;
+}
+.email{
+    margin-top: 30px;
+    margin-left: 60px;
+    color:  #2e2d2c;
+}
+.email input{
+    width: 270px;
+    height: 30px;
+    border-radius: 20px;
+    border-style: none;
+    background-color: #e2eee6;
+}
+.password{
+    margin-top: 30px;
+    margin-left: 60px;
+    color:  #2e2d2c;
+}
+.password input{
+    width: 270px;
+    height: 30px;
+    border-radius: 20px;
+    border-style: none;
+    background-color: #e2eee6;
+}
+.file{
+    margin-top: 30px;
+    margin-left: 60px;
+    color:  #2e2d2c;
+}
+.description{
+    margin-top: 30px;
+    margin-left: 60px;
+    color:  #2e2d2c;
+}
+.description input{
+    width: 270px;
+    height: 90px;
+    border-radius: 20px;
+    border-style: none;
+    background-color: #e2eee6;
+}
+.button{
+    margin-top: 60px;
+    margin-left: 160px;
+    width: 80px;
+    height: 30px;
+    border-radius: 20px;
+    border-style: none;
+    background-color:#ecbb4f;
+    color:  #2e2d2c;
+}
